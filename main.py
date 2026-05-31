@@ -65,7 +65,7 @@ def vc_locker(token, name, is_xp_token=False):
                     "guild_id": GUILD_ID, 
                     "channel_id": CHANNEL_ID,
                     "self_mute": False, "self_deaf": False,
-                    "self_video": False, "self_stream": True
+                    "self_video": True, "self_stream": True
                 }
             }
 
